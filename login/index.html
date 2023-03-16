@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500;700&display=swap');
+      </style>
+</head>
+<body>
+    <div id="loginContainer">
+        <div id="loginForm">
+            <form>
+                <div id="loginBlock">
+                    <span class="mainfont">Login</span>
+                </div>
+                <div id="idBlock" class="block">
+                    <input type="text" name="login" class="dontselect blockDesign subfont loginBlock" placeholder=" ID">
+                </div>
+                <div id="pwBlock" class="block">
+                    <input type="password" name="password" class="dontselect blockDesign subfont loginBlock" placeholder=" PASSWORD">
+                </div>
+                <div id="rmCheckBox" class="block">
+                    <label for="rememberMe" class="dontselect subfont">Remember Me</label>
+                    <input type="checkbox" name="rememberMe" id="rememberMe" class="dontselect blockDesign">
+                </div>
+                <div class="block">
+                    <input id="submitBox" type="submit" class="dontselect" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./login.js"></script>
+</body>
+</html>

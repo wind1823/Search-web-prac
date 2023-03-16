@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.dontselect{
+    user-select: none;
+}
+
+.mainfont{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: palevioletred;
+}
+
+.subfont{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: palevioletred;
+}
+
+.block{
+    padding-top: 20px;
+}
+
+.loginBlock{
+    width: 300px;
+    height: 40px;
+}
+
+::placeholder{
+    color: rgb(235, 150, 178);
+}
+
+.blockDesign{
+    background-color: rgb(255, 208, 223);
+    color: palevioletred;
+    accent-color: palevioletred;
+    border: none;
+    border-radius: 5px;
+}
+#loginContainer{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm{
+    display: flex;
+    height: 480px;
+    width: 550px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+
+
+#submitBox{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgb(235, 150, 178);
+    color: white;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+}
